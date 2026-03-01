@@ -94,6 +94,14 @@ h3 {
     color: #555;
 }
 
+.project:nth-child(even) {
+    direction: rtl;
+}
+
+.project:nth-child(even) p {
+    direction: ltr;
+}
+
 .about {
     background: #f7f7f7;
     padding: 60px 20px;
