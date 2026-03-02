@@ -127,6 +127,14 @@ h3 {
     order: 2;
 }
 
+#approach .project {
+    grid-template-columns: 1fr;
+}
+
+#foundations .project {
+    grid-template-columns: 1fr 1fr;
+}
+
 .secondary-image {
     margin-top: 15px;
     opacity: 0.8;
